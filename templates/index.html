@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Index</title>
+    <script src="/static/app.js" async></script>
+  </head>
+  <body>
+    <div style="font-size:3em;">HEADER</div>
+    Hello from index.
+    <a href="/page2">Page 2</a>
+
+    <div data-controller="hello">
+      <input data-target="hello.name" type="text">
+
+      <button data-action="click->hello#greet">Greet</button>
+
+      <span data-target="hello.output"></span>
+    </div>
+  </body>
+</html>
