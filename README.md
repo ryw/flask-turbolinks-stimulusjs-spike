@@ -1,5 +1,6 @@
+# flask-turbolinks-stimulusjs-spike
 
-Using:
+## Using
 
 * Webpack for build
 * npm for JS dependencies
@@ -9,7 +10,7 @@ Using:
   * babel because it was required by StimulusJS
 * Flask for webserver
 
-Testing:
+## Testing
 
 1. You can see when you click links between the two pages, in the network tab
    it is an XHR request, not a full page load. This is turbolinks in action.
@@ -17,16 +18,13 @@ Testing:
    [for other things](https://github.com/turbolinks/turbolinks#navigating-with-turbolinks).
 1. Click the button, you'll see that StimulusJS controller updates the <span>
 
-Flask:
+## Links
 
 * [Flask Quickstart](https://flask.palletsprojects.com/en/1.1.x/quickstart/)
+* [StimulusJS Handbook](https://stimulusjs.org/handbook/hello-stimulus)
+* [StimulusJS Starter Kit](https://github.com/stimulusjs/stimulus-starter/)
 
-StimulusJS:
-
-* [Handbook](https://stimulusjs.org/handbook/hello-stimulus)
-* [Starter Kit](https://github.com/stimulusjs/stimulus-starter/)
-
-To run the server:
+## Run the server
 
 ```
 npm install
